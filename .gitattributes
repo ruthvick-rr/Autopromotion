@@ -1,0 +1,6 @@
+
+# Ignore conflicts in workflow YAMLs — always keep ours
+.github/workflows/autopromotion.yml merge=ours
+.github/workflows/dev.yml merge=ours
+.github/workflows/rudev.yml merge=ours
+.github/workflows/rutest.yml merge=ours
